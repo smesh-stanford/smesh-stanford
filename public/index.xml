@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
     <title>My New Hugo Site</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Sep 2025 12:44:01 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leadership</title>
+      <link>http://localhost:1313/leadership/</link><pubDate>Tue, 23 Sep 2025 12:44:01 -0700</pubDate>
+      
+      <guid>http://localhost:1313/leadership/</guid>
+      <description>&lt;p&gt;Our peoples&amp;hellip;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/</link><pubDate>Mon, 22 Sep 2025 22:25:14 -0700</pubDate>
+      
+      <guid>http://localhost:1313/resources/</guid>
+      <description>&lt;h2 id=&#34;get-involved&#34;&gt;Get Involved:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Join our Slack: Our Slack is via the Stanford slack under w6yx. If you can&amp;rsquo;t find this group please reach out to either &lt;a href=&#34;mailto:mdrand@stanford.edu&#34;&gt;mdrand@stanford.edu&lt;/a&gt; or &lt;a href=&#34;mailto:raigosa@stanford.edu&#34;&gt;raigosa@stanford.edu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical&#34;&gt;Technical&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/orgs/smesh-stanford/repositories&#34;&gt;GitHub Organization for SMesh&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;When first taking a look, understanding SMesh can be summarized in &lt;a href=&#34;TODO&#34;&gt;this design document&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/drive/u/1/folders/0ADJoJJ39xj6LUk9PVA&#34;&gt;Our drive&lt;/a&gt;. If you cannot access this please reach out to &lt;a href=&#34;mailto:mdrand@stanford.edu&#34;&gt;mdrand@stanford.edu&lt;/a&gt; or &lt;a href=&#34;mailto:raigosa@stanford.edu&#34;&gt;raigosa@stanford.edu&lt;/a&gt;. We put all our meeting notes/documentation/mumbo jumbo here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://smesh.info/&#34;&gt;Our landing page&lt;/a&gt; (which is non-technical)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
   </channel>
 </rss>
