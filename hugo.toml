@@ -2,7 +2,6 @@ languageCode = "en-us"
 title = "Kaslaanka Site"
 theme = "kaslaanka"
 baseURL = "/"
-# baseURL = "https://smesh-stanford.github.io/smesh-stanford/"
 
 [params]
   sitename      = "SMesh Technical Page"

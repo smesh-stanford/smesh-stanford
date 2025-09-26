@@ -35,7 +35,7 @@ When you compile the server, the render of the website appears in your `public` 
 Change in the `.github/workflows/hugo.yml` file the branch from main to whatever your branch you are trying to test deployment for. This is so that we run the GitHub build/deployment pipeline with your branch, since it will only ever try to build/deploy main. Change this back prior to merging!
 
 > [!WARNING]
-> Testing deployment will actually update the site being deployed at the github.io link. In the future, we may want to setup a cleaner way of doing this perhaps with some sort of stg/prd.
+> Testing deployment will actually update the site being deployed at the github.io link. In the future, we may want to setup a cleaner way of doing this perhaps with some sort of stg/prd. As of right now, any branch can deploy the GitHub pages website for debugging purposes. Although, in the future, it'd be nice to make this safer.
 
 ### General Recommendations/Troubleshooting
 - hugo doesn't like it when you add HTML directly into markdown. Instead it supports `shortcodes`. Refer to `layouts/shortcodes` for examples
