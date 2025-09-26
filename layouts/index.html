@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+{{ partial "header" . }}
+
+<!-- Clean image wrapper OUTSIDE Bootstrap grid -->
+<div style="all: unset; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 0 0; margin-bottom: 15px">
+  <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 0; margin: 0;">
+    <img 
+      src="/images/homepage/node.png" 
+      alt="Image 1" 
+      style="width: 100%; height: 100%; object-fit: cover; display: block; padding: 0; margin: 0;"
+    >
+  </div>
+
+  <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <img 
+      src="/images/homepage/goteam!.jpg" 
+      alt="Image 2" 
+      style="width: 100%; height: 100%; object-fit: cover; display: block; padding: 0; margin: 0;"
+    >
+  </div>
+</div>
+
+<!-- Now your normal site content grid -->
+<div class="content">
+  <div class="container"> 
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-lg-8">
+        {{ partial "face" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="mx-0 chunk-sm posts">
+  <div class="row recent-articles">
+    <h4 class="justify-content-center some-weight col-auto" style="margin-bottom: 0px;">Recent articles</h4>
+  </div>
+  {{ range .Data.Pages.GroupByDate "2006" "desc" }}
+    {{ range (sort .Pages "Date" "desc") }}
+      {{ partial "globallist" . }}
+    {{ end }}
+  {{ end }}
+  <div class="container">
+    <span class="justify-content-center row col-auto mx-0 chunk-sm">
+      <a class="col-auto more-links justify-content-center text-center" href="{{ .Permalink }}{{ if .Site.Params.archive }}{{ .Site.Params.archive }}{{ else }}blog{{ end }}">
+        More articles
+      </a>
+    </span>
+  </div>
+</div>
+
+<hr>
+
+{{ if .Site.Params.myprojects }}
+  <div class="chunk-sm posts">
+    <div class="row">
+      <h4 class="justify-content-center some-weight col-auto" style="margin-bottom: 1rem">Projects</h4>
+    </div>
+    <div>
+      {{ partial "projects" . }}
+    </div>
+    {{ if .Site.Params.projectsURL}}
+    <div class="container">
+      <span class="justify-content-center row col-auto mx-0 chunk-sm" style="padding-top: 1.2rem">
+        <a class="col-auto more-links justify-content-center text-center" href="{{ .Site.Params.projectsURL }}">
+          More projects
+        </a>
+      </span>
+    </div>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ partial "footer" . }}
+
+{{ end }}

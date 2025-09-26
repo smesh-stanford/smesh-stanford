@@ -1,0 +1,4 @@
+baseURL = 'https://smesh-stanford.github.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'kaslaanka'
