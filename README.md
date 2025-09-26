@@ -31,6 +31,12 @@ hugo server -D
 
 When you compile the server, the render of the website appears in your `public` folder. So if you need to troubleshoot issues with the pages you're writing vs. how it's getting compiled by hugo, refer to the `public` folder.
 
+## Testing deployment to GitHub
+Change in the `.github/workflows/hugo.yml` file the branch from main to whatever your branch you are trying to test deployment for. This is so that we run the GitHub build/deployment pipeline with your branch, since it will only ever try to build/deploy main. Change this back prior to merging!
+
+> [!WARNING]
+> Testing deployment will actually update the site being deployed at the github.io link. In the future, we may want to setup a cleaner way of doing this perhaps with some sort of stg/prd.
+
 ### General Recommendations/Troubleshooting
 - hugo doesn't like it when you add HTML directly into markdown. Instead it supports `shortcodes`. Refer to `layouts/shortcodes` for examples
 - If a file is failing to display: 
