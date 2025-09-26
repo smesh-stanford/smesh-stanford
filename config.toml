@@ -1,0 +1,32 @@
+languageCode = "en-us"
+title = "Kaslaanka Site"
+theme = "kaslaanka"
+
+[params]
+  sitename      = "SMesh Technical Page"
+  defaultList   = "blog"
+  paginationLen = 3
+  projectsURL   = "/"
+  brief_about   = "<center> Hello! Here is where to find all the resources you might desire for SMesh. </br></br>For background, environmental sensors are currently insufficient for monitoring controlled burns. They are too expensive, too difficult to deploy, too permanent, or do not track all the critical variables. <br/> <br/> SMesh is a low-cost, easily deployable sensor suite that helps fire practitioners stay out of harm’s way, extend their reach across multiple sites, and access sensor data before, during, and after a burn. </center>"
+
+  homepage_image = "/images/fun/fire-bear.png"
+
+  [[menu.primary]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.primary]]
+  name = "Resources"
+  url = "/resources"
+  weight = 2
+
+  [[menu.primary]]
+  name = "Leadership"
+  url = "/leadership"
+  weight = 3
+
+  [[menu.primary]]
+  name = "Blog"
+  url = "/blog"
+  weight = 4
