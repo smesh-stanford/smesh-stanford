@@ -1,12 +1,12 @@
 languageCode = "en-us"
 title = "Kaslaanka Site"
 theme = "kaslaanka"
+baseURL = "https://smesh-stanford.github.io/smesh-stanford/"
 
 [params]
   sitename      = "SMesh Technical Page"
   defaultList   = "blog"
   paginationLen = 3
-  projectsURL   = "/"
   brief_about   = "<center> Hello! Here is where to find all the resources you might desire for SMesh. </br></br>For background, environmental sensors are currently insufficient for monitoring controlled burns. They are too expensive, too difficult to deploy, too permanent, or do not track all the critical variables. <br/> <br/> SMesh is a low-cost, easily deployable sensor suite that helps fire practitioners stay out of harm’s way, extend their reach across multiple sites, and access sensor data before, during, and after a burn. </center>"
 
   [[menu.primary]]
