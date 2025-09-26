@@ -56,10 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --themesDir ../../ \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-        with:
-          submodules: recursive
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
