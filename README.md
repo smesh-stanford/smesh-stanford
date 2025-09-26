@@ -1,5 +1,6 @@
 # smesh-stanford
 This is created with GitHub pages/Hugo! View it here: https://smesh-stanford.github.io/smesh-stanford/
+
 The coolest part about this theme is a majority of pages can be created in simple markdown. And if you're feeling real fancy, then you can add HTML/CSS. This is supported via Hugo which allows you to create entire websites using mainly markdown and *some* HTML/CSS snippets (so the barrier to entry to adding to this website is very low).
 
 The way GitHub pages work is that we can host the page under the `smesh-stanford` organization for free using static pages. Since our website doesn't require a database, complex bells and whistles, GitHub pages and Hugo is a perfect use case for SMesh's website.
