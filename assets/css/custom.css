@@ -1,19 +1,1 @@
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
 
-.team-member {
-  text-align: center;
-}
-
-.team-photo {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%; /* makes it a circle */
-  margin-bottom: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}

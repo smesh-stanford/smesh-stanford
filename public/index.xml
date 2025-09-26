@@ -13,12 +13,70 @@
       <link>http://localhost:1313/leadership/</link><pubDate>Tue, 23 Sep 2025 12:44:01 -0700</pubDate>
       
       <guid>http://localhost:1313/leadership/</guid>
-      <description>&lt;p&gt;Our peoples&amp;hellip;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;style&gt;
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .team-member {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+
+  .team-member img {
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #e0e0e0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team-member h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #333;
+  }
+
+  .team-member p {
+    font-size: 0.95rem;
+    margin-top: 4px;
+    color: #777;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;team-grid&#34;&gt;
+&lt;div class=&#34;team-grid&#34;&gt;
+  &lt;div class=&#34;team-member&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/leadership/DanielAsadNeamati.jpg&#34; alt=&#34;Daniel Neamati&#34;&gt;
+    &lt;h3&gt;Daniel Neamati&lt;/h3&gt;
+    &lt;p&gt;The Grad &lt;/br&gt; Student Glue!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/blog/test1/</link>
+      <category>hugo</category>
+      <category>blogging</category><pubDate>Tue, 23 Sep 2025 12:00:00 -0700</pubDate>
+      
+      <guid>http://localhost:1313/blog/test1/</guid>
+      <description></description>
     </item>
     
     <item>
